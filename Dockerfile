@@ -1,4 +1,4 @@
-FROM ruby:2.7.2-slim-buster
+FROM ruby:3.1.0-slim-buster
 
 WORKDIR /usr/src/app
 COPY Gemfile /usr/src/app/Gemfile
@@ -8,4 +8,3 @@ COPY Gemfile.lock /usr/src/app/Gemfile.lock
 RUN bundle install
 
 RUN ruby -e 'require "gemoji"; puts Emoji.find_by_alias("cat").raw'
-
