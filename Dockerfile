@@ -1,4 +1,4 @@
-FROM ruby:3.1.0-slim-buster
+FROM ruby:3.1.2-slim-buster
 
 WORKDIR /usr/src/app
 COPY Gemfile /usr/src/app/Gemfile
