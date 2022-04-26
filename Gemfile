@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
-ruby '2.7.2'
+ruby '2.7.5'
 
-gem "gemoji", "~> 3.0"
+gem "gemoji", "~> 2.0"
